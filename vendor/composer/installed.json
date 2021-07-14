@@ -89,20 +89,6 @@
         "keywords": [
             "constructor",
             "instantiate"
-        ],
-        "funding": [
-            {
-                "url": "https://www.doctrine-project.org/sponsorship.html",
-                "type": "custom"
-            },
-            {
-                "url": "https://www.patreon.com/phpdoctrine",
-                "type": "patreon"
-            },
-            {
-                "url": "https://tidelift.com/funding/github/packagist/doctrine%2Finstantiator",
-                "type": "tidelift"
-            }
         ]
     },
     {
@@ -153,27 +139,21 @@
             "duplicate",
             "object",
             "object graph"
-        ],
-        "funding": [
-            {
-                "url": "https://tidelift.com/funding/github/packagist/myclabs/deep-copy",
-                "type": "tidelift"
-            }
         ]
     },
     {
         "name": "nikic/php-parser",
-        "version": "v4.10.4",
-        "version_normalized": "4.10.4.0",
+        "version": "v4.11.0",
+        "version_normalized": "4.11.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/nikic/PHP-Parser.git",
-            "reference": "c6d052fc58cb876152f89f532b95a8d7907e7f0e"
+            "reference": "fe14cf3672a149364fb66dfe11bf6549af899f94"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/c6d052fc58cb876152f89f532b95a8d7907e7f0e",
-            "reference": "c6d052fc58cb876152f89f532b95a8d7907e7f0e",
+            "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/fe14cf3672a149364fb66dfe11bf6549af899f94",
+            "reference": "fe14cf3672a149364fb66dfe11bf6549af899f94",
             "shasum": ""
         },
         "require": {
@@ -184,7 +164,7 @@
             "ircmaxell/php-yacc": "^0.0.7",
             "phpunit/phpunit": "^6.5 || ^7.0 || ^8.0 || ^9.0"
         },
-        "time": "2020-12-20T10:01:03+00:00",
+        "time": "2021-07-03T13:36:55+00:00",
         "bin": [
             "bin/php-parse"
         ],
@@ -606,12 +586,6 @@
             "coverage",
             "testing",
             "xunit"
-        ],
-        "funding": [
-            {
-                "url": "https://github.com/sebastianbergmann",
-                "type": "github"
-            }
         ]
     },
     {
@@ -664,12 +638,6 @@
         "keywords": [
             "filesystem",
             "iterator"
-        ],
-        "funding": [
-            {
-                "url": "https://github.com/sebastianbergmann",
-                "type": "github"
-            }
         ]
     },
     {
@@ -725,12 +693,6 @@
         "homepage": "https://github.com/sebastianbergmann/php-invoker/",
         "keywords": [
             "process"
-        ],
-        "funding": [
-            {
-                "url": "https://github.com/sebastianbergmann",
-                "type": "github"
-            }
         ]
     },
     {
@@ -782,12 +744,6 @@
         "homepage": "https://github.com/sebastianbergmann/php-text-template/",
         "keywords": [
             "template"
-        ],
-        "funding": [
-            {
-                "url": "https://github.com/sebastianbergmann",
-                "type": "github"
-            }
         ]
     },
     {
@@ -839,27 +795,21 @@
         "homepage": "https://github.com/sebastianbergmann/php-timer/",
         "keywords": [
             "timer"
-        ],
-        "funding": [
-            {
-                "url": "https://github.com/sebastianbergmann",
-                "type": "github"
-            }
         ]
     },
     {
         "name": "phpunit/phpunit",
-        "version": "9.5.4",
-        "version_normalized": "9.5.4.0",
+        "version": "9.5.6",
+        "version_normalized": "9.5.6.0",
         "source": {
             "type": "git",
             "url": "https://github.com/sebastianbergmann/phpunit.git",
-            "reference": "c73c6737305e779771147af66c96ca6a7ed8a741"
+            "reference": "fb9b8333f14e3dce976a60ef6a7e05c7c7ed8bfb"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c73c6737305e779771147af66c96ca6a7ed8a741",
-            "reference": "c73c6737305e779771147af66c96ca6a7ed8a741",
+            "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/fb9b8333f14e3dce976a60ef6a7e05c7c7ed8bfb",
+            "reference": "fb9b8333f14e3dce976a60ef6a7e05c7c7ed8bfb",
             "shasum": ""
         },
         "require": {
@@ -889,7 +839,7 @@
             "sebastian/global-state": "^5.0.1",
             "sebastian/object-enumerator": "^4.0.3",
             "sebastian/resource-operations": "^3.0.3",
-            "sebastian/type": "^2.3",
+            "sebastian/type": "^2.3.4",
             "sebastian/version": "^3.0.2"
         },
         "require-dev": {
@@ -900,7 +850,7 @@
             "ext-soap": "*",
             "ext-xdebug": "*"
         },
-        "time": "2021-03-23T07:16:29+00:00",
+        "time": "2021-06-23T05:14:38+00:00",
         "bin": [
             "phpunit"
         ],
@@ -936,16 +886,6 @@
             "phpunit",
             "testing",
             "xunit"
-        ],
-        "funding": [
-            {
-                "url": "https://phpunit.de/donate.html",
-                "type": "custom"
-            },
-            {
-                "url": "https://github.com/sebastianbergmann",
-                "type": "github"
-            }
         ]
     },
     {
@@ -994,13 +934,7 @@
             }
         ],
         "description": "Library for parsing CLI options",
-        "homepage": "https://github.com/sebastianbergmann/cli-parser",
-        "funding": [
-            {
-                "url": "https://github.com/sebastianbergmann",
-                "type": "github"
-            }
-        ]
+        "homepage": "https://github.com/sebastianbergmann/cli-parser"
     },
     {
         "name": "sebastian/code-unit",
@@ -1048,13 +982,7 @@
             }
         ],
         "description": "Collection of value objects that represent the PHP code units",
-        "homepage": "https://github.com/sebastianbergmann/code-unit",
-        "funding": [
-            {
-                "url": "https://github.com/sebastianbergmann",
-                "type": "github"
-            }
-        ]
+        "homepage": "https://github.com/sebastianbergmann/code-unit"
     },
     {
         "name": "sebastian/code-unit-reverse-lookup",
@@ -1101,13 +1029,7 @@
             }
         ],
         "description": "Looks up which function or method a line of code belongs to",
-        "homepage": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/",
-        "funding": [
-            {
-                "url": "https://github.com/sebastianbergmann",
-                "type": "github"
-            }
-        ]
+        "homepage": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/"
     },
     {
         "name": "sebastian/comparator",
@@ -1173,12 +1095,6 @@
             "comparator",
             "compare",
             "equality"
-        ],
-        "funding": [
-            {
-                "url": "https://github.com/sebastianbergmann",
-                "type": "github"
-            }
         ]
     },
     {
@@ -1228,13 +1144,7 @@
             }
         ],
         "description": "Library for calculating the complexity of PHP code units",
-        "homepage": "https://github.com/sebastianbergmann/complexity",
-        "funding": [
-            {
-                "url": "https://github.com/sebastianbergmann",
-                "type": "github"
-            }
-        ]
+        "homepage": "https://github.com/sebastianbergmann/complexity"
     },
     {
         "name": "sebastian/diff",
@@ -1292,12 +1202,6 @@
             "udiff",
             "unidiff",
             "unified diff"
-        ],
-        "funding": [
-            {
-                "url": "https://github.com/sebastianbergmann",
-                "type": "github"
-            }
         ]
     },
     {
@@ -1353,12 +1257,6 @@
             "Xdebug",
             "environment",
             "hhvm"
-        ],
-        "funding": [
-            {
-                "url": "https://github.com/sebastianbergmann",
-                "type": "github"
-            }
         ]
     },
     {
@@ -1428,27 +1326,21 @@
         "keywords": [
             "export",
             "exporter"
-        ],
-        "funding": [
-            {
-                "url": "https://github.com/sebastianbergmann",
-                "type": "github"
-            }
         ]
     },
     {
         "name": "sebastian/global-state",
-        "version": "5.0.2",
-        "version_normalized": "5.0.2.0",
+        "version": "5.0.3",
+        "version_normalized": "5.0.3.0",
         "source": {
             "type": "git",
             "url": "https://github.com/sebastianbergmann/global-state.git",
-            "reference": "a90ccbddffa067b51f574dea6eb25d5680839455"
+            "reference": "23bd5951f7ff26f12d4e3242864df3e08dec4e49"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/sebastianbergmann/global-state/zipball/a90ccbddffa067b51f574dea6eb25d5680839455",
-            "reference": "a90ccbddffa067b51f574dea6eb25d5680839455",
+            "url": "https://api.github.com/repos/sebastianbergmann/global-state/zipball/23bd5951f7ff26f12d4e3242864df3e08dec4e49",
+            "reference": "23bd5951f7ff26f12d4e3242864df3e08dec4e49",
             "shasum": ""
         },
         "require": {
@@ -1463,7 +1355,7 @@
         "suggest": {
             "ext-uopz": "*"
         },
-        "time": "2020-10-26T15:55:19+00:00",
+        "time": "2021-06-11T13:31:12+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1490,12 +1382,6 @@
         "homepage": "http://www.github.com/sebastianbergmann/global-state",
         "keywords": [
             "global state"
-        ],
-        "funding": [
-            {
-                "url": "https://github.com/sebastianbergmann",
-                "type": "github"
-            }
         ]
     },
     {
@@ -1545,13 +1431,7 @@
             }
         ],
         "description": "Library for counting the lines of code in PHP source code",
-        "homepage": "https://github.com/sebastianbergmann/lines-of-code",
-        "funding": [
-            {
-                "url": "https://github.com/sebastianbergmann",
-                "type": "github"
-            }
-        ]
+        "homepage": "https://github.com/sebastianbergmann/lines-of-code"
     },
     {
         "name": "sebastian/object-enumerator",
@@ -1600,13 +1480,7 @@
             }
         ],
         "description": "Traverses array structures and object graphs to enumerate all referenced objects",
-        "homepage": "https://github.com/sebastianbergmann/object-enumerator/",
-        "funding": [
-            {
-                "url": "https://github.com/sebastianbergmann",
-                "type": "github"
-            }
-        ]
+        "homepage": "https://github.com/sebastianbergmann/object-enumerator/"
     },
     {
         "name": "sebastian/object-reflector",
@@ -1653,13 +1527,7 @@
             }
         ],
         "description": "Allows reflection of object attributes, including inherited and non-public ones",
-        "homepage": "https://github.com/sebastianbergmann/object-reflector/",
-        "funding": [
-            {
-                "url": "https://github.com/sebastianbergmann",
-                "type": "github"
-            }
-        ]
+        "homepage": "https://github.com/sebastianbergmann/object-reflector/"
     },
     {
         "name": "sebastian/recursion-context",
@@ -1714,13 +1582,7 @@
             }
         ],
         "description": "Provides functionality to recursively process PHP variables",
-        "homepage": "http://www.github.com/sebastianbergmann/recursion-context",
-        "funding": [
-            {
-                "url": "https://github.com/sebastianbergmann",
-                "type": "github"
-            }
-        ]
+        "homepage": "http://www.github.com/sebastianbergmann/recursion-context"
     },
     {
         "name": "sebastian/resource-operations",
@@ -1767,27 +1629,21 @@
             }
         ],
         "description": "Provides a list of PHP built-in functions that operate on resources",
-        "homepage": "https://www.github.com/sebastianbergmann/resource-operations",
-        "funding": [
-            {
-                "url": "https://github.com/sebastianbergmann",
-                "type": "github"
-            }
-        ]
+        "homepage": "https://www.github.com/sebastianbergmann/resource-operations"
     },
     {
         "name": "sebastian/type",
-        "version": "2.3.1",
-        "version_normalized": "2.3.1.0",
+        "version": "2.3.4",
+        "version_normalized": "2.3.4.0",
         "source": {
             "type": "git",
             "url": "https://github.com/sebastianbergmann/type.git",
-            "reference": "81cd61ab7bbf2de744aba0ea61fae32f721df3d2"
+            "reference": "b8cd8a1c753c90bc1a0f5372170e3e489136f914"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/sebastianbergmann/type/zipball/81cd61ab7bbf2de744aba0ea61fae32f721df3d2",
-            "reference": "81cd61ab7bbf2de744aba0ea61fae32f721df3d2",
+            "url": "https://api.github.com/repos/sebastianbergmann/type/zipball/b8cd8a1c753c90bc1a0f5372170e3e489136f914",
+            "reference": "b8cd8a1c753c90bc1a0f5372170e3e489136f914",
             "shasum": ""
         },
         "require": {
@@ -1796,7 +1652,7 @@
         "require-dev": {
             "phpunit/phpunit": "^9.3"
         },
-        "time": "2020-10-26T13:18:59+00:00",
+        "time": "2021-06-15T12:49:02+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1821,13 +1677,7 @@
             }
         ],
         "description": "Collection of value objects that represent the types of the PHP type system",
-        "homepage": "https://github.com/sebastianbergmann/type",
-        "funding": [
-            {
-                "url": "https://github.com/sebastianbergmann",
-                "type": "github"
-            }
-        ]
+        "homepage": "https://github.com/sebastianbergmann/type"
     },
     {
         "name": "sebastian/version",
@@ -1872,27 +1722,21 @@
             }
         ],
         "description": "Library that helps with managing the version number of Git-hosted PHP projects",
-        "homepage": "https://github.com/sebastianbergmann/version",
-        "funding": [
-            {
-                "url": "https://github.com/sebastianbergmann",
-                "type": "github"
-            }
-        ]
+        "homepage": "https://github.com/sebastianbergmann/version"
     },
     {
         "name": "symfony/polyfill-ctype",
-        "version": "v1.22.1",
-        "version_normalized": "1.22.1.0",
+        "version": "v1.23.0",
+        "version_normalized": "1.23.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-ctype.git",
-            "reference": "c6c942b1ac76c82448322025e084cadc56048b4e"
+            "reference": "46cd95797e9df938fdd2b03693b5fca5e64b01ce"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/c6c942b1ac76c82448322025e084cadc56048b4e",
-            "reference": "c6c942b1ac76c82448322025e084cadc56048b4e",
+            "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/46cd95797e9df938fdd2b03693b5fca5e64b01ce",
+            "reference": "46cd95797e9df938fdd2b03693b5fca5e64b01ce",
             "shasum": ""
         },
         "require": {
@@ -1901,11 +1745,11 @@
         "suggest": {
             "ext-ctype": "For best performance"
         },
-        "time": "2021-01-07T16:49:33+00:00",
+        "time": "2021-02-19T12:13:01+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-main": "1.22-dev"
+                "dev-main": "1.23-dev"
             },
             "thanks": {
                 "name": "symfony/polyfill",
@@ -1942,20 +1786,6 @@
             "ctype",
             "polyfill",
             "portable"
-        ],
-        "funding": [
-            {
-                "url": "https://symfony.com/sponsor",
-                "type": "custom"
-            },
-            {
-                "url": "https://github.com/fabpot",
-                "type": "github"
-            },
-            {
-                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                "type": "tidelift"
-            }
         ]
     },
     {
@@ -1998,13 +1828,7 @@
                 "role": "Developer"
             }
         ],
-        "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
-        "funding": [
-            {
-                "url": "https://github.com/theseer",
-                "type": "github"
-            }
-        ]
+        "description": "A small library for converting tokenized PHP source code into XML and potentially other formats"
     },
     {
         "name": "webmozart/assert",

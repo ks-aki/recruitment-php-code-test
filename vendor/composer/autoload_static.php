@@ -87,7 +87,8 @@ class ComposerStaticInitaa3e3a42d9650960c63fb627a7234031
     );
 
     public static $classMap = array (
-        'App\\Service\\Logger' => __DIR__ . '/../..' . '/src/Service/Logger.php',
+        'App\\Service\\AppLogger' => __DIR__ . '/../..' . '/src/Service/AppLogger.php',
+        'App\\Service\\Common' => __DIR__ . '/../..' . '/src/Service/Common.php',
         'App\\Service\\ProductHandler' => __DIR__ . '/../..' . '/src/Service/ProductHandler.php',
         'Logger' => __DIR__ . '/..' . '/apache/log4php/src/main/php/Logger.php',
         'LoggerAppender' => __DIR__ . '/..' . '/apache/log4php/src/main/php/LoggerAppender.php',
@@ -768,8 +769,10 @@ class ComposerStaticInitaa3e3a42d9650960c63fb627a7234031
         'SebastianBergmann\\Timer\\Timer' => __DIR__ . '/..' . '/phpunit/php-timer/src/Timer.php',
         'SebastianBergmann\\Type\\CallableType' => __DIR__ . '/..' . '/sebastian/type/src/CallableType.php',
         'SebastianBergmann\\Type\\Exception' => __DIR__ . '/..' . '/sebastian/type/src/exception/Exception.php',
+        'SebastianBergmann\\Type\\FalseType' => __DIR__ . '/..' . '/sebastian/type/src/FalseType.php',
         'SebastianBergmann\\Type\\GenericObjectType' => __DIR__ . '/..' . '/sebastian/type/src/GenericObjectType.php',
         'SebastianBergmann\\Type\\IterableType' => __DIR__ . '/..' . '/sebastian/type/src/IterableType.php',
+        'SebastianBergmann\\Type\\LogicException' => __DIR__ . '/..' . '/sebastian/type/src/exception/LogicException.php',
         'SebastianBergmann\\Type\\MixedType' => __DIR__ . '/..' . '/sebastian/type/src/MixedType.php',
         'SebastianBergmann\\Type\\NullType' => __DIR__ . '/..' . '/sebastian/type/src/NullType.php',
         'SebastianBergmann\\Type\\ObjectType' => __DIR__ . '/..' . '/sebastian/type/src/ObjectType.php',
